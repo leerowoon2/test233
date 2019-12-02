@@ -1,0 +1,15 @@
+*.iml
+*.idea
+*.DS_Store
+convert
+_dist/public
+_dist/bundle/data
+_document
+node_modules
+js/node_modules
+_dist/bundle/js/kukuviewer.bundle.min.js
+www/js/viewer.bundle.js
+www/data
+www/js/pdfjsWorker.bundle.js
+www/js/worker.bundle.js
+download

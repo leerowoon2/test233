@@ -1,0 +1,47 @@
+.kdblifeAuthPageBg {position:absolute; top:0;left:0;right:0;bottom:40%; background:linear-gradient( -45deg, #4950c5, #2154bd );}
+.authPswBtn {position:absolute; left:0; right:0; bottom:0px; display:block; text-align:center; font-size:24px; height:80px; line-height:80px; width:100%; padding:0; color:#fff; background:linear-gradient( -45deg, #4950c5, #2154bd ); border-radius:0px; }
+.kdblifeAuthPage { position:absolute; top:0;left:0;right:0;bottom:0; height:100%; min-height:520px;}
+.kdblifeAuthPage .logo {position:absolute; top:30px; left:50%; margin-top:0px;-webkit-transform:translateX(-50%); -moz-transform:translateX(-50%); -ms-transform:translateX(-50%); -o-transform:translateX(-50%); transform:translateX(-50%); }
+.kdblifeAuthPage .logo img { height:40px; }
+.kdblifeAuthPage .infoView {position:absolute; top:50%; margin-top:-230px; left:40px; color:#fff; font-size:20px; font-weight:normal; line-height:40px;font-family:'Noto Sans KR', sans-serif; }
+.kdblifeAuthPage .infoView .point {  font-weight:bold; }
+.kdblifeAuthPage .formView { position:absolute; top:50%; left:40px; margin-top:-50px; background-color:#fff; width:calc(100% - 120px); border:none; border-radius:15px; padding:30px 20px 30px 20px; box-shadow:0 10px 10px 0 #ddd; }
+.kdblifeAuthPage .formView .subject { font-size:20px; line-height:40px; font-weight:bold;  color:#000;}
+.kdblifeAuthPage .formView .summary { font-size:14px; line-height:25px;  color:#000;}
+.kdblifeAuthPage .formView input.password { font-size:20px; border-radius:0px; margin-top:30px; border-top:none; border-left:none; border-right:none; border-bottom:2px solid #ccc; height:40px; width:calc(100% - 60px); margin-left:0px; outline:0; background-color:#fff; padding:10px 30px; text-align:center; }
+.kdblifeAuthPage .formView input.password:focus {font-size:20px;background-color:#fff;}
+
+/* -------------------------------------------------------------- */
+.mobile #kk_pw_dialog {position: absolute; top: 0; bottom: 0; left: 0; right: 0; padding: 0px; min-width:320px; overflow: auto; border: 1px solid #fff; background-color: #fff; border-radius: 0; font-family: "맑은고딕"; z-index: 60001; }
+
+@media(max-width:320px){
+    .kdblifeAuthPage .infoView { font-size:15px; font-weight:normal; line-height:35px; margin-top:-200px; }
+    .kdblifeAuthPage .formView .summary { font-size:12px; }
+    .kdblifeAuthPage .formView input.password { margin-top: 15px; }
+    .authPswBtn { font-size:20px; height:50px; line-height:50px; }
+}
+
+@media(max-height:520px){
+    #kk_pw_dialog { min-height:520px; }
+    .kdblifeAuthPage .infoView { font-size:16px; font-weight:normal; line-height:25px;  margin-top:-150px; }
+}
+
+@media(max-height:600px){
+    .kdblifeAuthPage .infoView { font-size:18px; font-weight:normal; line-height:25px;  margin-top:-170px; }
+}
+
+@media(min-width:520px){
+    #kk_pw_dialog { min-height:320px; }
+   .kdblifeAuthPage {min-height:320px; }
+   .kdblifeAuthPageBg { right:50%; bottom:0; }
+   .kdblifeAuthPage .logo {position:absolute; top:30px; left:30px; margin-top:0px;-webkit-transform:translateX(0); -moz-transform:translateX(0); -ms-transform:translateX(0); -o-transform:translateX(0); transform:translateX(0); }
+   .kdblifeAuthPage .infoView {position:absolute; top:auto; bottom:80px; margin-top:0; left:30px; color:#fff; font-size:20px; font-weight:normal; line-height:40px;font-family:'Noto Sans KR', sans-serif; }
+   .kdblifeAuthPage .formView { position:absolute; top:80px; left:50%; right:0; bottom:0; width:100%; margin-top:0px; background-color:#fff; width:calc(50% - 60px); border:none; border-radius:0; padding:30px 30px 50px 30px; box-shadow:none; }
+   .kdblifeAuthPage .formView input.password { border-radius:0px; margin-top:30px; border-top:none; border-left:none; border-right:none; border-bottom:1px solid #ccc; height:40px; width:calc(100% - 60px); margin-left:0px; outline:0; background-color:#fff; padding:10px 30px; text-align:center; }
+   .authPswBtn {position:absolute; left:auto; right:30px; bottom:20px; display:block; text-align:center; font-size:20px; height:50px; line-height:50px; width:calc(50% - 60px); padding:0; color:#fff; background-color:#4950c5; border-radius:5px;  }
+}
+
+@media (max-height:414px) and (min-width:763px) {
+  .landscape .kdblifeAuthPage .infoView { font-size:14px; font-weight:normal; line-height:40px;bottom:50px; }
+  .landscape .kdblifeAuthPage .formView { top:30px; }
+}

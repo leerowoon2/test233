@@ -1,0 +1,17 @@
+.sumsungAuthPage { position: absolute; top:0;left:0;right:0;bottom:40%;  background-color:#bbcad4;  background-size:100%;}
+.sumsungAuthPage .logo {position: absolute; top:30px; right:30px;    margin-top: 0px; }
+
+.sumsungAuthPage .subtitle {position: absolute; top: 50%;  margin-top:-80px; left: 0px; right: 0px; color:#0081c7; font-size:25px; font-weight: bold; text-align:center; line-height:40px;font-family: 'Noto Sans KR', sans-serif; }
+
+.sumsungAuthPage .title {position: absolute; top: 50%; margin-top: -30px; left: 0px; right: 0px; color:#005fad; font-size:35px; font-weight: bold;text-align:center;  line-height:40px;font-family: 'Noto Sans KR', sans-serif; }
+.sumsungAuthPage .title .point { color:#fff101; }
+.sumsungAuthPage .imageWrap {position: absolute; top: 50%; margin-top: 30px; height:150px; width:100%; text-align:center;}
+.sumsungAuthPage .imageWrap img.error_1 {position: absolute; top:0; left:50%; height:150px; -webkit-transform: translateX(-50%);  transform: translateX(-50%);}
+.sumsungAuthPage .imageWrap img.error_2 {position: absolute; top:0; left:50%; height:200px; -webkit-transform: translateX(-50%);  transform: translateX(-50%);}
+.sumsungAuthPage .imageWrap img.error_3 {position: absolute; top:0; left:50%; height:190px; -webkit-transform: translateX(-50%);  transform: translateX(-50%);}
+.sumsungAuthPage .imageWrap img.error_4 {position: absolute; top:0; left:50%; height:190px; -webkit-transform: translateX(-50%);  transform: translateX(-50%);}
+
+.sumsungAuthPage .singlelinetext { position: absolute; top: 50%; margin-top:220px; background-color: #fff; width:100%; border: 0; border-radius:0px; padding:30px 0px 50px 0px; }
+.sumsungAuthPage .singlelinetext .summary { font-size:12px; line-height:25px;  color:#999; text-align:center;} 
+.sumsungAuthPage .singlelinetext .authPswBtn {position: relative;  display: block; text-align: center; margin:15px auto; font-size:14px; padding-top:15px; padding-bottom:15px; width: 200px; color: #fff; background-color: #00a8e4; border-radius:5px; text-decoration: none; }
+.sumsungAuthPage .singlelinetext input.password { border-radius:5px; margin-top:30px; border: 1px solid #ccc; height: 40px; width: calc(100% - 60px); margin-left: 0px; outline: 0; background-color: #fff; padding: 10px 30px; text-align: center;}

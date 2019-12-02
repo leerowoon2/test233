@@ -1,0 +1,66 @@
+@media print {
+    body { overflow:visible !important; display: inline; margin:0; padding:0; 	background:#fff;}
+
+	.ui-dialog{ display:none !important; }
+	.ui-widget-overlay{ display:none !important; }
+   
+	
+	#html5viewer .btnAction{ display:none !important; }
+	#html5viewer .btnToolbar{ display:none !important; }
+	#html5viewer .toolbar { display:none !important; }	
+	#html5viewer .tabbar{ display:none !important; }	
+	#html5viewer .tabletbar{ display:none !important; }	
+	#html5viewer .deskView .lSideView { display:none !important; }	
+	#html5viewer .deskView .editView  { display:none !important; }	
+	#html5viewer .deskView .editView .kk-prev-page{ display:none !important; }	
+	#html5viewer .deskView .editView .kk-next-page{ display:none !important; }	
+	/* Rules for browsers that support PDF.js printing */
+
+	#printContainer {display:block !important;height:auto;  }
+
+	#printContainer .printWrap { 
+
+		display: inline; top:0; height:auto !important; position: relative; top:auto; left:auto; right:auto; bottom:auto;
+
+	}
+
+	  /* wrapper around (scaled) print canvas elements */
+	
+	#printContainer .printWrap .ppage {
+		background:#fff; 
+		position:relative;
+		display:block;
+		border:none;
+		overflow:hidden; 
+		padding:0!important; 
+		margin:0!important; 
+		outline:none !important;
+		line-height:none;outline:none; 
+		page-break-after:always;
+
+		break-after:always;
+		
+		width:770px!important;
+		height: 1045px!important; 
+		page-break-inside:avoid;
+		break-inside:avoid;
+
+	}
+
+	#printContainer .printWrap .ppage:before { content:none; width:0;height:0;margin:0;line-height:0; top:0; left:0;bottom:0;}
+	
+	#printContainer .printWrap .ppage img {
+		width:770px !important; height: auto !important; border: none !important; outline:none !important;
+	}
+
+	#printContainer .printWrap .ppage .footer { position: absolute; width:100%; text-align:center; top:1000px; left:50%; right:auto; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); z-index:100000; font-size:10px;}
+
+
+
+	@page { margin: 0; margin:0; padding:0;box-shadow: 0;}
+}
+
+@page {size:auto !important; margin:0; padding:0;box-shadow: 0;}
+
+
+

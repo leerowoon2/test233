@@ -1,0 +1,7 @@
+.scroller-container { display:none;  position:absolute; top:0px; left:0px; right:0px; bottom:0px; overflow:hidden;background-color:#2d3740; overflow:auto;-webkit-overflow-scrolling: touch; }
+
+
+.scroller-container .scroller-wrapper {scroll-snap-type: y mandatory; }
+
+.scroller-container .scroller-wrapper .page {position: relative; margin-top:0px; margin-bottom:20px;background-color:#fff; scroll-snap-align: start; }
+.scroller-container .scroller-wrapper .page[loaded='true'] .spinner{ display:none; }

@@ -1,0 +1,159 @@
+.authView { position:absolute; top:0; left:0; right:0;  bottom:0; }
+
+.authView .editView .logo {  text-align:center; }
+.authView .editView .logo img {width:250px; }
+
+.authView .submitView { position:absolute; height:50px; left:10px; right:10px; bottom:10px; overflow:hidden;  color: #fff; }
+.authView .submitView .submit { display:block; text-align:center; -webkit-appearance: none; -moz-appearance: none; appearance: none;  width:100%; height:50px; border:none; background:#b23241; color:#fff; font-size:20px; line-height:50px;  }
+.authView .submitView .submit.disabled { background:#ddd; color:#fff;  }
+
+.authView .summaryView { position:absolute; height:100px; left:15px; right:15px; bottom:70px; overflow:hidden;  color: #999; font-size:12px; line-height:20px; }
+.authView .summaryView ul { list-style: none; margin:0; padding:0; }
+
+.authView .editView h3 { font-size:20px; margin-left:0px; color:#333; text-align:center; font-weight:normal; }
+.authView .editView p {font-size:16px; line-height:25px;  margin-left:0px; color:#666; text-align:left; margin:5px 20px;}
+.authView .editView .form { display:block; background-color:#fff; margin-top:-1px; border:1px solid #eee; margin:0 15px 5px 15px; padding:10px 10px; }
+.authView .editView .form label { float:left; display:block; font-size:12px; width:80px; color:#666; }
+
+.authView .editView .form input { border:0px; height:40px; width:100%; }
+.authView .editView .form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#ccc; }
+.authView .editView .form input::-moz-placeholder { /* Firefox 19+ */ color:#ccc; }
+.authView .editView .form input:-ms-input-placeholder { /* IE 10+ */ color:#ccc; }
+.authView .editView .form input:-moz-placeholder { /* Firefox 18- */ color:#ccc; }
+
+.authView .editView .form textarea { display:block; width : calc(100% - 80px); height:50px; padding:0px; margin:0; background-color:rgba(255,255,255,0.5); border:0; }
+.authView .editView .form textarea::-webkit-input-placeholder { color:#ccc; }
+.authView .editView .form textarea::-moz-placeholder { color:#ccc; }
+.authView .editView .form textarea:-ms-input-placeholder { color:#ccc; }
+.authView .editView .form textarea:-moz-placeholder { color:#ccc; }
+
+.authView .editView .singlelinetext:first-child { margin-top:20px;  }
+.authView .editView .checkbox {  background-color:transparent; border:none; margin:0 10px 0 10px; padding:10px 0px; }
+.authView .editView .checkbox:first-child { border:none; }
+.authView .editView .checkbox [type='checkbox']{  }
+
+.authView .editView .checkbox label { text-align:center; color:#666; }
+.authView .editView .checkbox label span { }
+
+.authView .editView .singlelinetext {}
+.authView .editView .singlelinetext label { float:left; display:block; font-size:12px; height:40px; line-height:40px; width:80px; color:#666; }
+.authView .editView .singlelinetext input[type='text'] { float:left; -webkit-appearance: none; -moz-appearance: none; appearance: none;  display:block; outline: none; width : calc(100% - 100px); height:40px; padding:0 5px; font-size:14px;  margin-left:90px; background-color:rgba(255,255,255,0.5); border:0; }
+.authView .editView .singlelinetext input[type='text']::-webkit-input-placeholder { color:#ddd; }
+.authView .editView .singlelinetext input[type='text']::-moz-placeholder { color:#ddd; }
+.authView .editView .singlelinetext input[type='text']:-ms-input-placeholder { color:#ddd; }
+.authView .editView .singlelinetext input[type='text']:-moz-placeholder { color:#ddd; }
+.authView .editView .singlelinetext input.labeled { border:0px; height:40px; width:calc(100% - 80px); }
+.authView .editView .singlelinetext input.btned { border:0px; height:40px; width:calc(100% - 120px);  margin-left:0px; }
+.authView .editView .singlelinetext .btn { float:right; display:block; text-align:center; font-size:14px; height:45px; line-height:45px; width:100px; color:#fff; background-color:#007bfd; }
+.authView .editView .singlelinetext .btn.cancel { background:#ddd; color:#000;  }
+.authView .editView .singlelinetext .btn.disabled { background:#ddd; color:#fff;  }
+.authView .editView .singlelinetext .btn.download { width:calc(50% - 40px); margin-right:10px; margin-left:10px;}
+.authView .editView .singlelinetext:after{content:"";display:table}
+.authView .editView .singlelinetext:after{clear:both}
+.authView .editView .singlelinetext .countdown { position: absolute; right:130px; font-size:14px; height:40px; line-height:40px; width:50px; color:#b23241; display:none; } 
+.authView .editView .singlelinetext .countdown.active { display:block; }
+
+.authView .editView .address {position: relative; }
+.authView .editView .address label { float:left; display:block; font-size:12px; height:80px; line-height:80px; width:80px; color:#666; }
+.authView .editView .address textarea {display:block; outline: none; resize: none; font-size:16px; line-height:20px; width : calc(100% - 100px); height:80px; padding:0 5px; margin-left:90px; background-color:rgba(255,255,255,0.5); border:0; }
+.authView .editView .address textarea::-webkit-input-placeholder { color:#ddd; }
+.authView .editView .address textarea::-moz-placeholder { color:#ddd; }
+.authView .editView .address textarea:-ms-input-placeholder { color:#ddd; }
+.authView .editView .address textarea:-moz-placeholder { color:#ddd; }
+.authView .editView .address .arrow { position: absolute; top:50%; right:5px; width:20px; height:20px; margin-top:-10px; font-size:20px; color:#ccc;}
+
+.authView .editView .paragraphtext label { float:left; display:block; font-size:12px; height:40px; line-height:40px; width:80px; color:#666; }
+.authView .editView .paragraphtext textarea { width : calc(100% - 20px); height:calc(100% - 20px); padding:10px; margin:0; background-color:rgba(255,255,255,0.5); border:0; }
+.authView .editView .paragraphtext textarea::-webkit-input-placeholder { color:#333; }
+.authView .editView .paragraphtext textarea::-moz-placeholder { color:#333; }
+.authView .editView .paragraphtext textarea:-ms-input-placeholder { color:#333; }
+.authView .editView .paragraphtext textarea:-moz-placeholder { color:#333; }
+.authView .editView .paragraphtext:after{ content: attr(key); position:absolute; top:5px; left:5px; color:#666; font-size:12px; }
+
+.zipcode textarea { width : calc(100% - 20px); height:calc(100% - 20px); padding:10px; margin:0; background-color:rgba(255,255,255,0.5); border:0; }
+.zipcode textarea::-webkit-input-placeholder { color:#333; }
+.zipcode textarea::-moz-placeholder { color:#333; }
+.zipcode textarea:-ms-input-placeholder { color:#333; }
+.zipcode textarea:-moz-placeholder { color:#333; }
+.zipcode:after{ content: attr(key); position:absolute; top:5px; left:5px; color:#666; font-size:12px; }
+
+
+
+
+
+
+
+.mobile {overflow: auto;}
+#kk_pw_dialog { position: absolute; top:0;left:0;right:0;bottom:0;  padding: 0px; overflow: auto; border: 1px solid #fff; background-color: #fff; border-radius: 0; font-family: "맑은고딕"; z-index: 60001;}
+.mobile #kk_pw_dialog { position: absolute; top:0;left:0;right:0;bottom:0;  padding: 0px; overflow: auto; border: 1px solid #fff; background-color: #fff; border-radius: 0; font-family: "맑은고딕"; z-index: 60001;}
+.mobile #kk_pw_dialog .logoWrap { position: absolute; top:30px;left:40px; width:120px;height:27px;z-index:9000002; background-image: url(../../images/samsung_logo.png); background-size: 120px 27px; background-repeat: no-repeat; }
+.mobile #kk_pw_dialog .authView .editView { margin-top:140px; }
+.mobile #kk_pw_dialog .authView h1 { font-size:35px; line-height:40px; margin-left:40px; margin-right:40px; color:#fff; font-weight:normal;  }
+.mobile #kk_pw_dialog .authView .editView p {font-size:16px; line-height:25px; color:#000;  margin-left:0px;  text-align:left; margin:5px 40px;}
+.mobile #kk_pw_dialog .authView .editView .form { display:block; background-color:transparent; margin-top:-1px; border:0; margin:10px 40px 0px 40px; padding:0; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext:first-child { margin-top:20px;  }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .btn { display:block; text-align:center; font-size:20px; height:50px; line-height:50px; width:100%; padding:0; color:#fff; background-color:#0081c7; border-radius:25px;  }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .btn.disabled { background:#ddd; color:#fff;  }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext input.btned { border:0px; height:40px; width: calc(100% - 60px); margin-left:0px; outline:0; background-color:#fff; padding:5px 30px; border-radius:25px; text-align:center; }
+
+/* The container */
+.mobile #kk_pw_dialog .radio label, .checkbox label { padding: 0;}
+.mobile #kk_pw_dialog .radiobox { position: absolute; margin-top: 0; margin-bottom: 0; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .labelwrap { display: block; width: calc(100% - 125px); position: relative; padding-left:35px; margin-left:50px; margin-right:50px; margin-top: 12px; margin-bottom: 12px; cursor: pointer; font-size:11px; line-height:15px;  padding-top: 5px; padding-bottom: 10px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none; user-select: none; color:#fff;}
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .labelwrap input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .checkmark { position: absolute; top: 50%;left: 0; margin-top:-15px;height: 25px;width: 25px; background-color:transparent; border:2px solid #fff; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .labelwrap:hover input ~ .checkmark {  background-color:transparent; border:2px solid #fff; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .labelwrap input:checked ~ .checkmark { background-color: #0081c7;  }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .checkmark:after { content: ""; position: absolute; display: none; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .labelwrap input:checked ~ .checkmark:after { display: block; }
+.mobile #kk_pw_dialog .authView .editView .singlelinetext .labelwrap .checkmark:after { left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg); transform: rotate(45deg); }
+.mobile #kk_pw_dialog .authView .editView .actionBtnWrap {position: absolute; bottom:0; left:0; right:0; height:200px; }
+.mobile #kk_pw_dialog .ui-dialog-content { position: static; }
+
+@media screen and (orientation:portrait) and (min-width: 321px) and (max-width: 375px) {
+    .mobile #kk_pw_dialog .authView h1 { font-size:30px;line-height:35px; }
+    .mobile #kk_pw_dialog .authView .editView p {font-size:14px; line-height:23px; margin:15px 40px;}
+    .mobile #kk_pw_dialog .authView .editView { margin-top:100px; }
+    .mobile #kk_pw_dialog .authView .editView .actionBtnWrap {position: absolute; bottom:0; left:0; right:0; height:220px; }
+}
+
+@media screen and (orientation:portrait) and  (max-width: 320px) {
+    .mobile #kk_pw_dialog .ui-dialog { padding:5px; top:0 !important; bottom:0 !important; border: 5px solid #0aafe6; background-color: #0aafe6; }
+    .mobile #kk_pw_dialog .authView .editView { margin-top:100px; }
+    .mobile #kk_pw_dialog .authView h1 { font-size:25px;line-height:30px; }
+    .mobile #kk_pw_dialog .authView .editView p {font-size:12px; line-height:25px; color:#fff;  margin-left:0px;  text-align:left; margin:5px 40px;}
+}
+
+@media screen and (min-aspect-ratio: 13/9) and  (max-width: 570px) {
+    .mobile #kk_pw_dialog .authView .editView { margin-top:80px; }
+    .mobile #kk_pw_dialog .authView h1{margin-right:50%}
+    .mobile #kk_pw_dialog .authView p{margin-right:50%}
+    .mobile #kk_pw_dialog .authView h1 { font-size:22px;line-height:28px; }
+    .mobile #kk_pw_dialog .authView .editView p {font-size:12px; line-height:25px; color:#fff;  margin-left:0px;  text-align:left; margin:5px 40px;}
+    .mobile #kk_pw_dialog .authView .editView .actionBtnWrap{position:absolute;top:80px;left:50%;right:0;height:250px}
+}
+
+@media screen and (min-aspect-ratio: 13/9) and (min-width: 571px) and (max-width: 735px)  {
+    .mobile #kk_pw_dialog .authView .editView { margin-top:100px; }
+    .mobile #kk_pw_dialog .authView h1{margin-right:50%}
+    .mobile #kk_pw_dialog .authView p{margin-right:50%}
+    .mobile #kk_pw_dialog .authView h1 { font-size:25px;line-height:30px; }
+    .mobile #kk_pw_dialog .authView .editView p {font-size:14px; line-height:25px; color:#fff;  margin-left:0px;  text-align:left; margin:5px 40px;}
+    .mobile #kk_pw_dialog .authView .editView .actionBtnWrap{position:absolute;top:100px;left:50%;right:0;height:250px}
+}
+
+@media screen and (min-aspect-ratio: 13/9) and (max-width: 736px)  {
+    .mobile #kk_pw_dialog .authView .editView { margin-top:100px; }
+    .mobile #kk_pw_dialog .authView h1{margin-right:50%}
+    .mobile #kk_pw_dialog .authView p{margin-right:50%}
+    .mobile #kk_pw_dialog .authView h1 { font-size:25px;line-height:30px; }
+    .mobile #kk_pw_dialog .authView .editView p {font-size:14px; line-height:25px; color:#fff;  margin-left:0px;  text-align:left; margin:5px 40px;}
+    .mobile #kk_pw_dialog .authView .editView .actionBtnWrap{position:absolute;top:100px;left:50%;right:0;height:250px}
+}
+
+@media screen and (min-aspect-ratio: 13/9)  {
+    .mobile #kk_pw_dialog .authView .editView { margin-top:100px; }
+    .mobile #kk_pw_dialog .authView h1{margin-right:50%}
+    .mobile #kk_pw_dialog .authView p{margin-right:50%}
+    .mobile #kk_pw_dialog .authView .editView .actionBtnWrap{position:absolute;top:100px;left:50%;right:0;height:250px}
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="./images/pdf_ico.ico" />
+    <link rel="apple-touch-icon" href="./images/pdf_50x50.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/pdf_72x72.png" />
+    <link rel="stylesheet" type="text/css" href="./css/viewer_min.css" />
+    <script type="text/javascript" src="./js/kukuviewer.bundle.min.js"></script>
+    <script type="text/javascript" >
+
+        var kukuViewer = new kukuViewer({
+                "wrap" : "html5viewer",
+                "company" :{
+                    "display" : true,
+                    "logo" : "./images/logo.png",
+                    "copy" : "COPYRIGHT @ 2019 kukudocs inc. All right reserved.",
+                },
+
+                "toolbar" : {
+                    "desktop" : [
+                        "download", "print", "fullscreen", "ebookview", "slideview"
+                    ],
+                    "mobile" : [
+                        "thumbview", "searchview", "outlineview", "pagejump", "tts", "download" /*, "sketch", "memo", "highlight"*/
+                    ],
+                    "tablet" : [
+                        "thumbview","contentview", "outlineview", "bookmarkview","pagejumpview", "searchview","highlight","bookmark"/*,"memo"*/
+                    ]
+                },
+
+                "sidebar" : {
+                    "load" : "off",
+                    "mode" : "thumb",
+                    "list" : ["thumbview","outlineview","searchview","bookmarkview"]
+                },
+
+                "fileinfo" : {
+                    "doc_id" : "",
+                    "ckey" : "",
+                    "filepath" : "data/pdf_1.pdf",
+                    "title" : "tck",
+                    //"watermark" : "1235",
+                    "multi" : false,
+                    "file" : [
+                        {
+                            "path" : "data/news_1.pdf",
+                            "title" : "롯데하이마트 (071840)"
+                        },
+                        {
+                            "path" : "data/news_2.pdf",
+                            "title" : "한미약품 (128940)"
+                        },
+                        {
+                            "path" : "data/news_3.pdf",
+                            "title" : "제주항공 (089590) "
+                        },
+                        {
+                            "path" : "data/news_4.pdf",
+                            "title" : "비나텍 (126340)"
+                        }
+                    ],
+                    
+                },
+                
+                "loading" : {
+                    //"passwordNeed" : "tckpassWrap",
+                    "opendb" : false,
+                    //"submenubar" : true,
+                    //"errorfilepath" : "data/error.pdf",
+                    "downloadURL" : "data/pdf_1.pdf",
+                    "viewmode" : "slide",
+                    "isUseTextDom" : false,
+                    "autoDownload": false,
+                    "basePath" : "external",
+                    "workerPathName" : "worker.js",
+                    "ttsType" : "page",
+                    "tts" : "speechSynthesis",
+                    "pageWrapFit" : "screen" // window, dom, screen
+                },                
+                
+            });
+    </script>
+</head>
+<body>
+<div id="html5viewer"></div>
+
+<div class="loading on">
+    <div class="square"><div class="spin"></div><br/>Now Loading...</div>
+</div>
+</body>
+</html>
