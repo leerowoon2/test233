@@ -1180,8 +1180,8 @@ body.tablet { margin:0; padding:0; background-color:#787878;overflow: hidden; }
     .annotationlink {  position:absolute; background-color:rgba(0,0,0,0);     z-index: 99999;  display:block;}
     .annotationlink:hover {  position:absolute; background-color:rgba(0,0,0,0.3);     z-index: 99999;  display:block;}
 
-    .bookmarklink {  position:absolute; background-color:rgba(0,0,0,1);     z-index: 99999;  display:block;}
-    .bookmarklink:hover {  position:absolute; background-color:rgba(0,0,0,0.3);     z-index: 99999;  display:block;}
+    .bookmarklink {  position:absolute; background-color:rgba(0,0,0,0);     z-index: 99999;  display:block;}
+    .bookmarklink:hover {  position:absolute; background-color:rgba(0,0,0,0);     z-index: 99999;  display:block;}
 
 
     .weblink {  position:absolute; background-color:rgba(0,0,0,0.4);     z-index: 99999;  display:block;}
