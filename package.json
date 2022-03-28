@@ -20,7 +20,7 @@
     "fs": "0.0.1-security",
     "inherits": "2.0.3",
     "minify": "^4.1.3",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "path": "^0.12.7",
     "process": "0.11.10",
     "util": "0.10.4",
