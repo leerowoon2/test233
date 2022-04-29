@@ -27,7 +27,7 @@
     "webpack-dev-middleware": "^3.7.0"
   },
   "devDependencies": {
-    "async": "^0.2.9",
+    "async": "^2.6.4",
     "jison": "^0.4.13",
     "pkg": "^4.3.7",
     "webpack": "^4.39.2",
